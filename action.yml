@@ -5,6 +5,9 @@ inputs:
   surge_token:
     description: 'surge.sh token'
     default: '6973bdb764f0d5fd07c910de27e2d7d0'
+  surge_domain:
+    description: 'surge.sh domain without protocol and "surge.sh"'
+    required: true
   github_token:
     description: 'github token'
     required: true
